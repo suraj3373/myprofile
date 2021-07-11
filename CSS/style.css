@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  background-color: #DFEEEA;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.top{
+  padding: 100px;
+  position: relative;
+}
+h1{
+  font-size: 5.62rem;
+  margin: 30px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+p {
+  line-height: 2;
+}
+.middle-container{
+}
+.profilepic {
+  border-radius: 100%;
+  width: 15%;
+}
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+.wed-developer-img {
+  border-radius: 50%;
+  float: left;
+  width: 35%;
+  margin-right: 30px;
+}
+.cooking-img {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+.bottom-container{
+  padding: 40px;
+  background-color: #FFF8DE;
+  margin-top: 30px;
+}
+a{
+  padding: 20px 20px;
+  color: #66BFBF;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.college-name {
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  color: #F38BA0;
+}
+hr {
+  border-style: dotted;
+  border-bottom-style: none;
+  color: red;
+  border-width: 5px;
+  width: 4%;
+}
+.student{
+  text-decoration: underline;
+}
+.top-cloud {
+  position: relative;
+  left: 260px;
+  bottom: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+}
+.contact-me-description {
+  padding: 20px;
+}
+.btn {
+  background: #78dec7;
+  background-image: -webkit-linear-gradient(top, #78dec7, #2980b9);
+  background-image: -moz-linear-gradient(top, #78dec7, #2980b9);
+  background-image: -ms-linear-gradient(top, #78dec7, #2980b9);
+  background-image: -o-linear-gradient(top, #78dec7, #2980b9);
+  background-image: linear-gradient(to bottom, #78dec7, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
